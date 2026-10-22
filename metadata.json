@@ -1,0 +1,6 @@
+{
+  "name": "Incubadora de Emprendedores - Ecosistema Multi D",
+  "description": "Formación principal para emprendedores que quieren validar y escalar su negocio. Acceso completo a módulos, videos, temario, evaluaciones y recursos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

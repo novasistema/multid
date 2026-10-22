@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-wine: #6c131b;
+    --brand-wine-dark: #3b080d;
+    --brand-wine-light: #8e1a24;
+    --brand-gold: #f7bd3c;
+    --brand-gold-soft: #f7bd3c2b;
+    --brand-gold-line: rgba(247, 189, 60, 0.25);
+    --brand-purple: #7c3aed;
+    --brand-purple-glow: rgba(124, 58, 237, 0.35);
+    --bg-dark: #090910;
+    --bg-card: #12121e;
+    --bg-card-hover: #181829;
+    --border-dark: #232338;
+  }
+
+  body {
+    background-color: #090910;
+    color: #f1f1f6;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+}
+
+/* Custom glow effects */
+.acad-video-glow {
+  box-shadow: 0 10px 40px -10px rgba(124, 58, 237, 0.25), 0 0 20px 0 rgba(108, 19, 27, 0.35);
+  border: 1px solid rgba(247, 189, 60, 0.18);
+}
+
+.gold-glow {
+  box-shadow: 0 0 25px -5px rgba(247, 189, 60, 0.3);
+}
+
+.wine-gradient {
+  background: linear-gradient(135deg, #6c131b 0%, #30060a 100%);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #ffd778 0%, #f7bd3c 50%, #d8961c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d0d16;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27273d;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3b3b5c;
+}
